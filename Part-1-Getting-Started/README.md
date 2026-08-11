@@ -1,6 +1,7 @@
-**Active Directory SOC Lab — Part 1**
+# Active Directory SOC Lab — Part 1
 
-Overview
+## Overview
+
 This is **Part 1** of my Active Directory SOC Lab project, where I started building a small enterprise-style security environment from scratch.
 
 The goal of this project is to understand how **Active Directory, Windows endpoints, Splunk, Sysmon, and an attacker machine** can work together to create a realistic SOC lab.
@@ -8,6 +9,7 @@ The goal of this project is to understand how **Active Directory, Windows endpoi
 ## Lab Architecture
 
 The environment consists of:
+
 * **Active Directory Server** — Centralized identity and domain management
 * **Splunk Server** — Centralized log collection, indexing, and analysis
 * **Windows Target Machine** — Simulated enterprise endpoint
@@ -18,6 +20,7 @@ The lab is designed so that security activity can be generated on Windows system
 ## Part 1 Focus
 
 In this part, I focused on:
+
 * Designing the lab architecture
 * Understanding how the components connect
 * Planning the network and data flow
@@ -33,4 +36,5 @@ In this part, I focused on:
 The architecture diagram below shows the overall environment and how the components are connected.
 
 ## What's Next?
+
 In the upcoming parts, I will continue configuring the environment, including **Active Directory, Splunk, Sysmon, log forwarding, and security monitoring**, and gradually turn the lab into a functional SOC environment.
